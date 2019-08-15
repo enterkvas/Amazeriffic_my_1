@@ -1,22 +1,56 @@
 body {
-    background: #f9e933; 
+    background: #f9e933;
+    font-family: 'Noto Sans', sans-serif;     
     /* width: 855px;
     margin: auto;   */
 }
 a:hover {
     cursor: pointer; /*мое дополнение*/
 }
+ul {
+    list-style-position: inside;
+    list-style-type: circle; 
+}
 
 header, main, footer {
-    min-width: 850px;
+    min-width: 855px;
 }
+h1, h2, h3, h4, h5 {
+    font-family: 'Ubuntu', sans-serif;    
+}
+
 header {
     background: white;
+    overflow: auto;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
 }
+    header h1 {
+        float: left;
+        
+        width: 540px;
+        font-size: 295%;
+        font-weight: 400;
+        font-style: italic; 
+        padding-top: 18px;
+        padding-bottom: 18px;       
+    }
+    header nav {
+        float: right;
+
+        width: 255px; 
+        padding-top: 20px;                       
+    }
+        header nav a {
+            color: #222;
+            font-weight: 700;
+            text-decoration: none;
+        }
 main {
     background: white;
 }
 header .container, main .container, footer .container {
     max-width: 855px;
-    margin: auto;
+    padding: 0 30px;
+    margin: auto;    
 }
