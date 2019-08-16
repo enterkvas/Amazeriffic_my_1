@@ -1,7 +1,5 @@
-body {
-    background: #f9e933;
+body {    
     font-family: 'Noto Sans', sans-serif;    
-    
 }
 a:hover {
     cursor: pointer; /*мое дополнение*/
@@ -12,8 +10,8 @@ ul {
     font-size: 50%; 
 }
 p {
-    font-size: 70%;
-    line-height: 1;    
+    font-size: 80%;
+    line-height: 1.1;    
 }
 
 header, main, footer {
@@ -49,7 +47,9 @@ header {
             color: #222;
             font-weight: 700;
             text-decoration: none;
+            font-size: 90%;
         }
+
 main {
     padding-bottom: 30px;
     background: white;
@@ -70,14 +70,14 @@ main {
         }
             main h2 {
                 font-size: 155%;
-                margin-bottom: 5px;
+                margin-bottom: 8px;
             }
             main h3 {
                 font-size: 105%;
                 margin-bottom: 5px;
             }
             main p {                
-                margin-bottom: 15px;                
+                margin-bottom: 20px;                
             }
             main li {
                 font-size: 150%;
@@ -90,4 +90,47 @@ main {
             .main-right img {
                 padding-left: 50px;
             }
+
+ footer {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    background-color: #ccc;
+    overflow: auto;
+ }
+    footer h5 {
+        font-weight: 400;
+        font-size: 110%;
+        margin-bottom: 15px;
+    } 
+    footer .contact {
+        float: left;
+        width: 540px;
+    }    
+        .contact p span {
+            font-style: italic;
+            font-weight: 400;
+        }  
+    footer .sitemap {
+        float: right;
         
+        width: 255px;
+    }
+        .ul-left {
+            float: left;
+        } 
+        .ul-right {
+            float: right;
+        }        
+            .sitemap ul li {
+                list-style-type: none;
+                line-height: 1.1; 
+                font-size: 160%;           
+            }                
+                .sitemap ul li a {
+                    text-decoration: none;
+                    color: #222;
+                    font-weight: 700;                                                    
+                }    
+        
+             
+
