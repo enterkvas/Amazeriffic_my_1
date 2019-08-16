@@ -1,15 +1,19 @@
 body {
     background: #f9e933;
-    font-family: 'Noto Sans', sans-serif;     
-    /* width: 855px;
-    margin: auto;   */
+    font-family: 'Noto Sans', sans-serif;    
+    
 }
 a:hover {
     cursor: pointer; /*мое дополнение*/
 }
 ul {
     list-style-position: inside;
-    list-style-type: circle; 
+    list-style-type: circle;
+    font-size: 50%; 
+}
+p {
+    font-size: 70%;
+    line-height: 1;    
 }
 
 header, main, footer {
@@ -24,7 +28,7 @@ header {
     overflow: auto;
     border-bottom: 1px solid #ccc;
     box-sizing: border-box;
-}
+}    
     header h1 {
         float: left;
         
@@ -47,10 +51,43 @@ header {
             text-decoration: none;
         }
 main {
+    padding-bottom: 30px;
     background: white;
-}
-header .container, main .container, footer .container {
-    max-width: 855px;
-    padding: 0 30px;
-    margin: auto;    
-}
+    overflow: auto;
+}    
+    header .container, main .container, footer .container {
+        max-width: 855px;
+        padding: 0 30px;
+        margin: auto;    
+    }
+    main .container {
+        padding-top: 30px;        
+    }
+        .main-left {
+            float: left;
+
+            width: 540px;           
+        }
+            main h2 {
+                font-size: 155%;
+                margin-bottom: 5px;
+            }
+            main h3 {
+                font-size: 105%;
+                margin-bottom: 5px;
+            }
+            main p {                
+                margin-bottom: 15px;                
+            }
+            main li {
+                font-size: 150%;
+            }
+        .main-right {
+            float: right;
+
+            width: 255px;            
+        }
+            .main-right img {
+                padding-left: 50px;
+            }
+        
